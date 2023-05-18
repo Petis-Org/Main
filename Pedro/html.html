@@ -10,13 +10,13 @@
 <body>
   <div class="card">
   
-    <!-- <div class="pata">
+    <div class="pata">
       <input type="image" src="img/pata.png"
       onclick="plim()"
       style="max-width:300px; max-height:300Px;">
 
     </div>
-  </div> -->
+  </div> 
 
     <!-- <form method="post" action={}>
       <input type="image" src="https://icons-for-free.com/iconfiles/png/512/32px+Free+Set+Download-1320568210130207016.png" 
@@ -30,10 +30,10 @@
       onclick= "myfunction()"
       height="275px" 
       width="275px"/>
-    </div> -->
+     -->
 
 <script>
-  function plim (pata) { 
+  function plim () { 
     document.getElementsByClassname ("pata").style.display = 'none';
   }
 </script>
@@ -45,30 +45,44 @@
       <label>Nome de usuário</label>
     </div>
     <div class="user-box">
+      <input type="CPF" name="" required="">
+      <label>CPF</label>
+    </div>
+    <div class="user-box">
       <input type="email" name="" required="">
       <label>E-mail</label>
     </div>
     <div class="user-box">
-      <input type="email" name="" required="">
-      <label>CPF</label>
+      <input type="confirmar-email" name="" required="">
+      <label>Confirmar e-mail</label>
     </div>
     <div class="user-box">
-      <input type="password" name="" required="">
+      <input type="senha" name="" required="">
       <label>Senha</label>
     </div>
     <div class="user-box">
       <input type="confirmar-senha" name="" required="">
       <label>Confirmar senha</label>
     </div>
-    <div class="xereca-box">
-      <input type="checkbox">
+
+    
+    <div class="user-box">
+      <label style="color:rgb(#fda7bb); font-size: 20px">Deseja se voluntariar ?</label>
+      <input type="checkbox" style="position: relative; left: 75px; margin-top: 15px;">
     </div>
+
+    <div class="user-box">
+      <input type="CMRV" name="" required="">
+      <label>nº da CMRV</label>
+    </div>
+
     
     
     <a href="#">
       Finalizar registro
     </a>
   </form>
+</div>
 </div>
 </body>
 </html>

@@ -12,7 +12,7 @@
 
 body {
   min-height: 100vh;
-  background: #040944;
+  background: #80C0E4;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -22,10 +22,10 @@ body {
 }
 
 .card {
-  background: #191c29;
+  background: #ffffff;
   width: 400px;
   height: 700px;
-  padding: 10px;
+  padding: 20px;
   position: relative;
   border-radius: 6px;
   justify-content: center;
@@ -87,9 +87,9 @@ body {
   width: 400px;
   padding: 40px;
   transform: translate(-50%, -50%);
-  background: rgba(0,0,0,.5);
+  
   box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  
   border-radius: 10px;
   margin-top: 2vh
 }
@@ -97,10 +97,12 @@ body {
 .login-box h2 {
   margin: 0 0 30px;
   padding: 0;
-  color: #fff;
+  color: #fda7bb;
   text-align: center;
   letter-spacing: 1px;
 }
+
+
 
 .login-box .user-box {
   position: relative;
@@ -110,10 +112,10 @@ body {
   width: 100%;
   padding: 10px 0;
   font-size: 16px;
-  color: #fff;
+  color: #fda7bb;
   margin-bottom: 30px;
   border: none;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #fda7bb;
   outline: none;
   background: transparent;
   
@@ -124,7 +126,7 @@ body {
   left: 0;
   padding: 10px 0;
   font-size: 16px;
-  color: #fff;
+  color: #fda7bb;
   pointer-events: none;
   transition: .5s;
   letter-spacing: 1px;
@@ -143,26 +145,21 @@ body {
   position: relative;
   display: inline-block;
   padding: 10px 20px;
-  color: #03e9f4;
+  color: #fda7bb;
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
   overflow: hidden;
-  transition: .5s;
+  transition: 0.5s;
   margin-top: 40px;
   letter-spacing: 4px;
-  
 }
 
 .login-box a:hover {
-  background: #03e9f4;
-  color: #fff;
+  background: #fda7bb;
+  color: #ffffff;
   border-radius: 5px;
-  box-shadow: 0 0 5px #03e9f4;
+  box-shadow: 0 0 5px #fda7bb;
   
 }
 
-.login-box a span {
-  position: absolute;
-  display: block;
-}
