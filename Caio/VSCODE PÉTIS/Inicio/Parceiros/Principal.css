@@ -1,0 +1,171 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    background-color:#80C0E4;
+    height: 100%;
+  }
+  a{
+    text-decoration:none
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .landingpage {
+    margin: 0 auto;
+    padding: 0 300px;
+    position: relative;
+  }
+  .landingpage::before {
+    content: "";
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 90%;
+    filter: blur(80px);
+  }
+  .landingpage::after {
+    content: "";
+    position: absolute;
+    width: 123px;
+    height: 123px;
+    left: 80%;
+    top: 550px;
+    filter: blur(80px);
+  }
+ 
+  .landingpage .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150vh;
+    height: 5vw;
+  }
+  .landingpage .box {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  .landingpage .auction {
+    margin-top: 100px;
+  }
+  .landingpage .discover {
+    display: flex;
+    flex-direction: column;
+  }
+  .landingpage .footer {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .landingpage .footer2 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-top: 1px solid #000000;
+  }
+  
+  .navbar .hamburgerlogowrap {
+    display: flex;
+    align-items: center;
+  }
+  .navbar .hamburger {
+    display: none;
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    margin-right: 10px;
+  }
+  .navbar .createbtn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    width:130px;
+    height: 36px;
+    color: #000000;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .navbar .createbtn.selectedbtn {
+    border: 1px solid #000000;
+    border-radius: 10px;
+  }
+  .navbar .navlogo {
+    height: 100%;
+    background: linear-gradient(93.51deg, #ff85a2 21.84%, #ff85a2 99.18%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+  }
+  .navbar .navlink {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #000000;
+  }
+
+  .navbar .navlink:not(:last-child) {
+    margin-right: 32px;
+  }
+  #Ini{
+    position: relative;
+    left: -2vw;
+  }
+  #cu{
+    position: relative;
+    left: -1vw;
+  }
+  #co{
+    position: relative;
+    left: 1vw;
+  }
+  #login {
+    font-size: 1rem;
+  }
+  #cadas{
+    font-size: 1rem;
+  }
+  .textao {
+    position: relative;
+    top: 5vh;
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #000000;
+  }
+/*LOGOS*/
+.logos{
+  position: relative;
+  left: 5vw;
+  top: 20vh;
+
+}
+.petz{
+  position: relative;
+
+  width: 150px;
+}
+.cobasi{
+  position: relative;
+  
+  width: 150px;
+}
+.petlove{
+  position: relative;
+  width: 150px;
+}
+.caesegatos{
+  position: relative;
+  width: 150px;
+}
