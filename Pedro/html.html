@@ -5,18 +5,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="/css.css"> 
+  <link rel="stylesheet" href="css.css"> 
 </head>
 <body>
   <div class="card">
   
-    <div class="pata">
+    <!-- <div class="pata">
       <input type="image" src="img/pata.png"
-      onclick="myfunction()"
+      onclick="plim()"
       style="max-width:300px; max-height:300Px;">
 
     </div>
-  </div>
+  </div> -->
 
     <!-- <form method="post" action={}>
       <input type="image" src="https://icons-for-free.com/iconfiles/png/512/32px+Free+Set+Download-1320568210130207016.png" 
@@ -33,14 +33,47 @@
     </div> -->
 
 <script>
-  function myfunction () { 
-    document.getElementsByClassName("pata").style.display = 'none';
+  function plim (pata) { 
+    document.getElementsByClassname ("pata").style.display = 'none';
   }
 </script>
+<div class="login-box">
+  <h2>Registre-se</h2>
+  <form>
+    <div class="user-box">
+      <input type="text" name="" required="">
+      <label>Nome de usuário</label>
+    </div>
+    <div class="user-box">
+      <input type="email" name="" required="">
+      <label>E-mail</label>
+    </div>
+    <div class="user-box">
+      <input type="email" name="" required="">
+      <label>CPF</label>
+    </div>
+    <div class="user-box">
+      <input type="password" name="" required="">
+      <label>Senha</label>
+    </div>
+    <div class="user-box">
+      <input type="confirmar-senha" name="" required="">
+      <label>Confirmar senha</label>
+    </div>
+    <div class="xereca-box">
+      <input type="checkbox">
+    </div>
+    
+    
+    <a href="#">
+      Finalizar registro
+    </a>
+  </form>
+</div>
 </body>
 </html>
 
-   
+
 
 
 
