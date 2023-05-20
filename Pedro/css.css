@@ -12,7 +12,7 @@
 
 body {
   min-height: 100vh;
-  background: #80C0E4;
+  background: #7ed0ff;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -43,7 +43,7 @@ body {
     border-radius: 8px;
     background-image: linear-gradient(
       var(--rotate),
-      #81dbff,
+      #fda7bb,
       #fda7bb
     );
     position: absolute;
@@ -65,8 +65,7 @@ body {
 
 .pata{
     cursor: pointer;
-    text-decoration: none;
-    position:absolute;
+    position: relative;
     opacity: 100;
     z-index:100;
     transition-property: all;
