@@ -20,20 +20,23 @@
       <h2>Registre-se</h2>
   <form>
     <div class="user-box">
-      <input type="text" name="" required="">
+      <input type="text" name="" required="" autocomplete="off">
       <label>Nome de usuário</label>
     </div>
     <div class="user-box">
-      <input type="CPF" name="" required="">
-     
+      <input type="text" name="" required="" autocomplete="off" maxlength="14" id="cpf">
+      <script src="./cpf.js"></script>
+      <script>
+        new FormMask
+        (document.querySelector("#cpf"), "___.___.___-__", "_", [".", "-"])</script>
       <label>CPF</label>
     </div>
     <div class="user-box">
-      <input type="email" name="" required="">
+      <input type="text" name="" required="" autocomplete="off">
       <label>E-mail</label>
     </div>
     <div class="user-box">
-      <input type="confirmar-email" name="" required="">
+      <input type="text" name="" required="" autocomplete="off">
       <label>Confirmar e-mail</label>
     </div>
     <div class="user-box">
@@ -51,7 +54,7 @@
     </div>
 
     <div class="user-box">
-      <input type="CMRV" name="" required="" disabled="disabled">
+      <input type="text" name="" required="" disabled="disabled" autocomplete="off">
       <label>nº da CMRV</label>
     </div>
   </form>
