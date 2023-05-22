@@ -16,7 +16,7 @@
     box-sizing: border-box;
   }
   .card {
-    background: #ffffff;
+    background: #7ed0ff;
     width: 400px;
     height: 800px;
     padding: 20px;
@@ -29,8 +29,11 @@
     font-size: 1.5em;
     color: rgb(88 199 250 / 0%);
     font-family: Arial;
+    background-image: #7ed0ff;
   }
-  .card::before {
+
+  
+  .card::after {
     content: "";
       width: 104%;
       height: 102%;
@@ -45,7 +48,10 @@
       top: -1%;
       left: -2%;
       animation: spin 2.5s linear infinite;
+      display: none;
     }
+
+    
   
   
   @keyframes spin {
@@ -68,8 +74,9 @@
     z-index: 10;
     width: 400px;
     padding: 40px;
+    height:730px;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 6px;
     transition: 1s;
     opacity: 1;
     pointer-events: all;
@@ -87,7 +94,7 @@
     position: relative;
     transition-property: all;
     transition-duration: 0.5s;
-    
+    margin-top: -40%;
   }
   
   .pata:hover {
