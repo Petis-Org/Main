@@ -1,0 +1,203 @@
+* {
+    font-family: Helvetica;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    background: #7ed0ff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+  }
+  .card {
+    background: #ffffff;
+    width: 400px;
+    height: 800px;
+    padding: 20px;
+    position: relative;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 1.5em;
+    color: rgb(88 199 250 / 0%);
+    font-family: Arial;
+  }
+  .card::before {
+    content: "";
+      width: 104%;
+      height: 102%;
+      border-radius: 8px;
+      background-image: linear-gradient(
+        var(--rotate),
+        #fda7bb,
+        #fda7bb
+      );
+      position: absolute;
+      z-index: -1;
+      top: -1%;
+      left: -2%;
+      animation: spin 2.5s linear infinite;
+    }
+  
+  
+  @keyframes spin {
+    0% {
+      --rotate: 0deg;
+    }
+    100% {
+      --rotate: 360deg;
+    }
+  }
+  
+  /* ----------------------------------------------------------------------------------------------------------- */
+  
+  #modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    z-index: 10;
+    width: 400px;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: 1s;
+    opacity: 1;
+    pointer-events: all;
+  }
+  
+  .pata {
+    padding: 0.6rem 1.2rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    opacity: 1;
+    font-size: 1rem;
+    cursor: pointer;
+    position: relative;
+    transition-property: all;
+    transition-duration: 0.5s;
+    
+  }
+  
+  .pata:hover {
+  transform: scale(1.1);
+  }
+  
+  .final {
+    padding: 0.6rem 1.2rem;
+    background-color: #fda7bb ;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    opacity: 0.8;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    opacity: 1;
+    
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  #modal.hide{
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  #modal.hide {
+    top: 50%;
+  }
+  
+  /* -------------------------------------------------------------------------------------------- */
+  
+  
+  
+  
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fda7bb;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  
+  
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fda7bb;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fda7bb;
+    outline: none;
+    background: transparent;
+    
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fda7bb;
+    pointer-events: none;
+    transition: .5s;
+    letter-spacing: 1px;
+  }
+  
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #fda7bb;
+    font-size: 12px;
+  }
+  
+  .login-box form a {
+    position: relative;
+    
+    padding: 10px 20px;
+    color: #fda7bb;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    margin-left: 25px;
+  }
+  
+  .login-box a:hover {
+    background: #fda7bb;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #fda7bb;
+    
+  }
