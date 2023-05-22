@@ -29,11 +29,11 @@
     font-size: 1.5em;
     color: rgb(88 199 250 / 0%);
     font-family: Arial;
-    background-image: #7ed0ff;
+
   }
 
-  
-  .card::after {
+  /* borda */
+  /* .card::after {
     content: "";
       width: 104%;
       height: 102%;
@@ -51,7 +51,7 @@
       display: none;
     }
 
-    
+     */
   
   
   @keyframes spin {
@@ -75,7 +75,10 @@
     width: 400px;
     padding: 40px;
     height:730px;
-    box-sizing: border-box;
+    
+    border-style: solid;
+    border-color:black;
+    border-width:5px;
     border-radius: 6px;
     transition: 1s;
     opacity: 1;
@@ -103,17 +106,21 @@
   
   .final {
     padding: 0.6rem 1.2rem;
-    background-color: #fda7bb ;
+    background-color: #E1738C ;
     color: #fff;
-    border: none;
     border-radius: 0.25rem;
     cursor: pointer;
     opacity: 0.8;
     font-size: 1rem;
+    border:solid black 3px;
   }
   
   button:hover {
     opacity: 1;
+    
+    color:black;
+    transition-property: all;
+    transition-duration: 0.4s;
     
   }
   
@@ -121,7 +128,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid black;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
   }
@@ -143,7 +150,7 @@
   .login-box h2 {
     margin: 0 0 30px;
     padding: 0;
-    color: #fda7bb;
+    color: #E1738C;
     text-align: center;
     letter-spacing: 1px;
   }
@@ -158,10 +165,10 @@
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
-    color: #fda7bb;
+    color: #E1738C;
     margin-bottom: 30px;
     border: none;
-    border-bottom: 1px solid #fda7bb;
+    border-bottom: 1px solid #E1738C;
     outline: none;
     background: transparent;
     
@@ -172,18 +179,18 @@
     left: 0;
     padding: 10px 0;
     font-size: 16px;
-    color: #fda7bb;
+    color: #E1738C;
     pointer-events: none;
     transition: .5s;
     letter-spacing: 1px;
   }
-  
-  
+
+
   .login-box .user-box input:focus ~ label,
   .login-box .user-box input:valid ~ label {
     top: -20px;
     left: 0;
-    color: #fda7bb;
+    color: #E1738C;
     font-size: 12px;
   }
   
@@ -191,7 +198,7 @@
     position: relative;
     
     padding: 10px 20px;
-    color: #fda7bb;
+    color: #E1738C;
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
@@ -202,9 +209,9 @@
   }
   
   .login-box a:hover {
-    background: #fda7bb;
+    background: #E1738C;
     color: #ffffff;
     border-radius: 5px;
-    box-shadow: 0 0 5px #fda7bb;
+    box-shadow: 0 0 5px #E1738C;
     
   }
