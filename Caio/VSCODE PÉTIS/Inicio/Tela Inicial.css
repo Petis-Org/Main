@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
     margin: 0;
-    background-color:#ffffff;
+    background-color:#7ed0ff;
   }
   a{
     text-decoration:none
@@ -17,7 +17,7 @@ body {
     position: relative;
     overflow-y: auto;
     overflow-x: hidden;
-    background-color: #80C0E4;
+    background-color: #7ed0ff;
   }
   .landingpage::before {
     content: "";

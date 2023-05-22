@@ -1,8 +1,9 @@
 @charset "UTF-8";
 body {
     margin: 0;
-    background-color:#80C0E4;
+    background-color:#7ed0ff;
     height: 100%;
+    overflow-x: hidden;
   }
   a{
     text-decoration:none
@@ -134,38 +135,64 @@ body {
   #cadas{
     font-size: 1rem;
   }
-  .textao {
-    position: relative;
-    top: 5vh;
-    text-align: center;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.5rem;
-    color: #000000;
-  }
+
 /*LOGOS*/
 .logos{
   position: relative;
-  left: 5vw;
+  left: 19vw;
   top: 20vh;
 
 }
 .petz{
   position: relative;
-
+  border-radius: 100px;
   width: 150px;
+  left: -40vh;
 }
 .cobasi{
   position: relative;
-  
+  border-radius: 100px;
+  left: -15vh;
   width: 150px;
 }
 .petlove{
   position: relative;
+  border-radius: 100px;
+  left: 15vh;
   width: 150px;
 }
 .caesegatos{
   position: relative;
+  border-radius: 100px;
+  background-color: #ffffff;
   width: 150px;
+  left: 40vh;
+}
+.texto-geral{
+  position: relative;
+  font-family: "Poppins";
+  font-style: normal;
+  color: #ffffff;
+  left: 40vh;
+
+}
+.texto-1{
+  position: relative;
+  left: -45vh;
+  top: 10vw;
+}
+.texto-2{
+  position: relative;
+  left: -5vh; 
+  top: 4vw;
+}
+.texto-3{
+  position: relative;
+  left: 40vh;
+  top: -0.8vw;
+}
+.texto-4{
+  position: relative;
+  left: 80vh;
+  top: -11vh;
 }

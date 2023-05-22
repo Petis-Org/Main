@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
     margin: 0;
-    background-color:#80C0E4;
+    background-color:#7ed0ff;
     height: 100%;
   }
   a{
@@ -16,7 +16,7 @@ body {
     margin: 0 auto;
     padding: 0 300px;
     position: relative;
-    background-color: #80C0E4;
+    background-color: #7ed0ff;
   }
   .landingpage::before {
     content: "";
@@ -111,7 +111,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 1.3rem;
-    color: #000000;
+    color: #ffffff;
   }
   .navbar .navlink.selectedlink:hover {
     background: #ff85a2;
@@ -142,27 +142,32 @@ body {
     font-size: 1rem;
   }
   .textao {
+    background-color: #ffffff;
+    border-radius: 10px;
     position: relative;
     top: 5vh;
+    left: 12vw;
+    width: 90vh;
+    height: 23vw;
     text-align: center;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
-    font-size: 1.5rem;
-    color: #000000;
+    font-size: 1.3rem;
+    color: #E1738C;
   }
 
 /*PETS*/
 
 .pets {
-  font-size: 12px;
+  font-size: 4px;
   width: 1em;
   height: 1em;
   animation: pet 10s infinite;
   -webkit-animation: pet 10s infinite;
   position: relative;
-  left: -10vw;
-  top: 25vh;
+  left: 75vw;
+  top: 30vh;
 }
 
 @keyframes pet {
