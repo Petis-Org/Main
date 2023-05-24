@@ -2,6 +2,7 @@
 body {
     margin: 0;
     background-color:#7ed0ff;
+    overflow-y: hidden;
   }
   a{
     text-decoration:none
@@ -88,16 +89,13 @@ body {
     border: none;
     width:130px;
     height: 36px;
-    color: #000000;
+    color: #ffffff;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
   }
-  .navbar .createbtn.selectedbtn {
-    border: 1px solid #000000;
-    border-radius: 10px;
-  }
+
   .navbar .navlogo {
     height: 100%;
     background: linear-gradient(93.51deg, #ff85a2 21.84%, #ff85a2 99.18%);
@@ -113,7 +111,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 1.3rem;
-    color: #000000;
+    color: #ffffff;
   }
   .navbar .navlink.selectedlink:hover {
     background: #ff85a2;
@@ -165,6 +163,6 @@ body {
     font-weight: 600;
     font-size: 1rem;
     line-height: 24px;
-    color: #000000;
+    color: #ffffff;
   }
 
