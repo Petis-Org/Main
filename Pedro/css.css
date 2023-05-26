@@ -161,7 +161,7 @@
     position: relative;
   }
   
-  .login-box .user-box input {
+  .login-box .user-box input[type ="text"] {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -173,6 +173,46 @@
     background: transparent;
     
   }
+  .login-box .user-box input[type ="password"] {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #8b4c5b;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #E1738C;
+    outline: none;
+    background: transparent;
+    
+  }
+  .login-box .user-box input[id ="cpf"] {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #8b4c5b;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #E1738C;
+    outline: none;
+    background: transparent;
+    
+  }
+  .login-box .user-box input[type="cmrv"] {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #8b4c5b;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #E1738C;
+    outline: none;
+    background: transparent;
+    
+  }
+ 
+  h3{
+  }
+
   .login-box .user-box label {
     position: absolute;
     top:0;
@@ -215,3 +255,49 @@
     box-shadow: 0 0 5px #E1738C;
     
   }
+
+  /*--------------------------------------------------------------------------------------*/
+  input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: #E1738C;
+    border-radius: 5px;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    margin-left: 235px;
+    position: relative;
+    top: 10px;
+
+  }
+
+
+  input[type="checkbox"]:after{
+    font-family: "Font Awesome 5 Free";
+    font-weight:900;
+    content: "\f00c";
+    font-size: 90;
+    color: white;
+    display: none;
+  }
+
+
+  input[type="checkbox"]:hover{
+    background-color: #8b4c5b;
+  }
+
+
+  input[type="checkbox"]:checked{
+    background-color: aqua;
+  }
+
+
+  input[type="checkbox"]:checked:after{
+    display:block;
+  }
+
+    
