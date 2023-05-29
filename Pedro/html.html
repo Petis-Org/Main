@@ -7,6 +7,7 @@
     <title>Modal JavaScript</title>
     <link rel="stylesheet" href="css.css" />
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   </head>
   <body>
   <div class="card">
@@ -50,13 +51,27 @@
       <label>Confirmar senha</label>
     </div>
     <div class="user-box">
-      <label><h3>Deseja se voluntariar ?</h3></label>
-      <input class="CMRV" type="checkbox" id="CMRV">
+      <h3>Deseja se voluntariar?</h3>
+      
     </div>
+    <input type="checkbox" id="check" onclick="putsraluca()">
+    <script>
+      function putsraluca() {
+        if(document.getElementById("check").checked) {
+          document.getElementById("numCMRV").disabled=false
+        }
+      else {
+        document.getElementById("numCMRV").disabled=true
+      }
+      }
+      
+      
+      
+    </script>
 
 
     <div class="user-box">
-      <input type="text" name="" id ="numCMRV" disabled="Disabled" required="" autocomplete="off">
+      <input type="text" name="" id ="numCMRV" disabled required="" autocomplete="off">
       <label>nº da CMRV</label>
     </div>
   </form>
@@ -68,11 +83,5 @@
         
       </div>
     </div>
-  </body>
-  <ul>
-    <li>
-      <input id="c1" type="checkbox">
-      <label for="c1">Checkbox</label>
-    </li>
-    
+  </body>    
 </html>
