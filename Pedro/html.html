@@ -53,8 +53,20 @@
     <div class="user-box">
       
       <h3>Deseja se voluntariar?</h3>
-      <input type="checkbox" id="check">
+      <input type="checkbox" id="check" onclick="xequiboks()">
     </div>
+    <script>
+     function xequiboks(){
+       if(document.getElementById('check').checked){
+          document.getElementById('CMRV').disabled = false
+        }
+       else{
+            document.getElementById('CMRV').disabled = true
+       }
+      }
+</script>
+
+
 
     <div class="user-box">
       <input type="cmrv" name="" required="" autocomplete="off" id="CMRV" disabled>
