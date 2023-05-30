@@ -2,7 +2,7 @@
 body {
     margin: 0;
     background-color:#7ed0ff;
-    overflow-y: hidden;
+    overflow-x: hidden;
   }
   a{
     text-decoration:none
@@ -16,8 +16,6 @@ body {
     margin: 0 auto;
     padding: 0 300px;
     position: relative;
-    overflow-y: auto;
-    overflow-x: hidden;
     background-color: #7ed0ff;
   }
   .landingpage::before {
@@ -47,35 +45,13 @@ body {
     height: 5vw;
   }
   .landingpage .box {
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
+
     margin-top: 80px;
   }
   .landingpage .auction {
     margin-top: 100px;
   }
-  .landingpage .discover {
-    display: flex;
-    flex-direction: column;
-  }
-  .landingpage .footer {
-    margin: 50px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .landingpage .footer2 {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 30px;
-    border-top: 1px solid #000000;
-  }
-  
-  .navbar .hamburgerlogowrap {
-    display: flex;
-    align-items: center;
-  }
+
   .navbar .hamburger {
     display: none;
     color: #000000;
@@ -84,6 +60,8 @@ body {
     margin-right: 10px;
   }
   .navbar .createbtn {
+    position: relative;
+    left: -9.4vw;
     cursor: pointer;
     background-color: transparent;
     border: none;
@@ -165,4 +143,20 @@ body {
     line-height: 24px;
     color: #ffffff;
   }
+
+
+
+.cu{
+  border-radius: 10px;
+  width: 26vh;
+  height: 15.5vw;
+  border: solid  #ffffff;
+ display: inline-block;
+ padding: 2em;
+ align-items: center;
+}
+.margem{
+  margin-top: 15vh;
+}
+
 
