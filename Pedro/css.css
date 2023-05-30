@@ -1,290 +1,309 @@
 * {
-    font-family: Helvetica;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    min-height: 100vh;
-    background: #7ed0ff;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 4rem;
-    padding-bottom: 2rem;
-    box-sizing: border-box;
-  }
-  .card {
-    background: #7ed0ff;
-    width: 400px;
-    height: 800px;
-    padding: 20px;
-    position: relative;
-    border-radius: 6px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    font-size: 1.5em;
-    color: rgb(88 199 250 / 0%);
-    font-family: Arial;
+  font-family: Helvetica;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-  }
+body {
+  min-height: 100vh;
+  background: #7ed0ff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+}
+.card {
+  background: #7ed0ff;
+  width: 400px;
+  height: 800px;
+  padding: 20px;
+  position: relative;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-size: 1.5em;
+  color: rgb(88 199 250 / 0%);
+  font-family: Arial;
 
-  /* borda */
-  /* .card::after {
-    content: "";
-      width: 104%;
-      height: 102%;
-      border-radius: 8px;
-      background-image: linear-gradient(
-        var(--rotate),
-        #fda7bb,
-        #fda7bb
-      );
-      position: absolute;
-      z-index: -1;
-      top: -1%;
-      left: -2%;
-      animation: spin 2.5s linear infinite;
-      display: none;
-    }
+}
 
-     */
-  
-  
-  @keyframes spin {
-    0% {
-      --rotate: 0deg;
-    }
-    100% {
-      --rotate: 360deg;
-    }
-  }
-  
-  /* ----------------------------------------------------------------------------------------------------------- */
-  
-  #modal {
+/* borda */
+/* .card::after {
+  content: "";
+    width: 104%;
+    height: 102%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+      var(--rotate),
+      #fda7bb,
+      #fda7bb
+    );
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    z-index: 10;
-    width: 400px;
-    padding: 40px;
-    height:730px;
-    
-    border-style: solid;
-    border-color:black;
-    border-width:5px;
-    border-radius: 6px;
-    transition: 1s;
-    opacity: 1;
-    pointer-events: all;
-  }
-  
-  .pata {
-    padding: 0.6rem 1.2rem;
-    background-color: transparent;
-    border: none;
-    border-radius: 0.25rem;
-    cursor: pointer;
-    opacity: 1;
-    font-size: 1rem;
-    cursor: pointer;
-    position: relative;
-    transition-property: all;
-    transition-duration: 0.5s;
-    margin-top: -40%;
-  }
-  
-  .pata:hover {
-  transform: scale(1.1);
-  }
-  
-  .final {
-    padding: 0.6rem 1.2rem;
-    background-color: #E1738C ;
-    color: #fff;
-    border-radius: 0.25rem;
-    cursor: pointer;
-    opacity: 0.8;
-    font-size: 1rem;
-    border:solid black 3px;
-  }
-  
-  button:hover {
-    opacity: 1;
-    
-    color:black;
-    transition-property: all;
-    transition-duration: 0.4s;
-    
-  }
-  
-  .modal-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid black;
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-  }
-  
-  #modal.hide{
-    opacity: 0;
-    pointer-events: none;
-  }
-  
-  #modal.hide {
-    top: 50%;
-  }
-  
-  /* -------------------------------------------------------------------------------------------- */
-  
-  h3{
-    padding: 0;
-    color: #E1738C;
-    text-align: left;
-    letter-spacing: 1px;
-    font-size: 23px;
-  
-  }
-  
-  
-  .login-box h2 {
-    margin: 0 0 30px;
-    padding: 0;
-    color: #E1738C;
-    text-align: center;
-    letter-spacing: 1px;
-  }
-  
-  
-  
-  .login-box .user-box {
-    position: relative;
-  }
-  
-  .login-box .user-box input[type="text"] {
-    width: 100%;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #8b4c5b;
-    margin-bottom: 30px;
-    border: none;
-    border-bottom: 1px solid #E1738C;
-    outline: none;
-    background: transparent;
-    
+    z-index: -1;
+    top: -1%;
+    left: -2%;
+    animation: spin 2.5s linear infinite;
+    display: none;
   }
 
-  .login-box .user-box input[type="password"] {
-    width: 100%;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #8b4c5b;
-    margin-bottom: 30px;
-    border: none;
-    border-bottom: 1px solid #E1738C;
-    outline: none;
-    background: transparent;
-    
+   */
+
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
   }
-
-  .login-box .user-box input[id="cpf"] {
-    width: 100%;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #8b4c5b;
-    margin-bottom: 30px;
-    border: none;
-    border-bottom: 1px solid #E1738C;
-    outline: none;
-    background: transparent;
-    
+  100% {
+    --rotate: 360deg;
   }
+}
 
+/* ----------------------------------------------------------------------------------------------------------- */
 
-  .login-box .user-box label {
-    position: absolute;
-    top:0;
-    left: 0;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #E1738C;
-    pointer-events: none;
-    transition: .5s;
-    letter-spacing: 1px;
-  }
-
-
-  .login-box .user-box input:focus ~ label,
-  .login-box .user-box input:valid ~ label {
-    top: -20px;
-    left: 0;
-    color: #E1738C;
-    font-size: 12px;
-  }
+#modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  z-index: 10;
+  width: 400px;
+  padding: 40px;
+  height:730px;
   
-  .login-box form a {
-    position: relative;
-    
-    padding: 10px 20px;
-    color: #E1738C;
-    font-size: 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    overflow: hidden;
-    transition: 0.5s;
-    letter-spacing: 4px;
-    margin-left: 25px;
-  }
-  
-  .login-box a:hover {
-    background: #E1738C;
-    color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 0 5px #E1738C;
-    
-  }
+  border-style: solid;
+  border-color:black;
+  border-width:5px;
+  border-radius: 6px;
+  transition: 1s;
+  opacity: 1;
+  pointer-events: all;
+}
 
-
-/* -----------------------------------------------------------------------------------------------------------------------------------*/
-input [type="checkbox"]{
-  appearance: none;
-  -webkit-appearance:none;
-  height: 80px;
-  width: 80px;
-  background-color: #d5d5d5;
-  border-radius: 5px;
+.pata {
+  padding: 0.6rem 1.2rem;
+  background-color: transparent;
+  border: none;
+  border-radius: 0.25rem;
   cursor: pointer;
-  display:flex;
+  opacity: 1;
+  font-size: 1rem;
+  cursor: pointer;
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.5s;
+  margin-top: -40%;
+}
+
+.pata:hover {
+transform: scale(1.1);
+}
+
+.final {
+  padding: 0.6rem 1.2rem;
+  background-color: #E1738C ;
+  color: #fff;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  opacity: 0.8;
+  font-size: 1rem;
+  border:solid black 3px;
+}
+
+button:hover {
+  opacity: 1;
+  
+  color:black;
+  transition-property: all;
+  transition-duration: 0.4s;
+  
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+#modal.hide{
+  opacity: 0;
+  pointer-events: none;
+}
+
+#modal.hide {
+  top: 50%;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+
+
+
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #E1738C;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input[type ="text"] {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #8b4c5b;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #E1738C;
+  outline: none;
+  background: transparent;
+  
+}
+.login-box .user-box input[type ="password"] {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #8b4c5b;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #E1738C;
+  outline: none;
+  background: transparent;
+  
+}
+.login-box .user-box input[id ="cpf"] {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #8b4c5b;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #E1738C;
+  outline: none;
+  background: transparent;
+  
+}
+.login-box .user-box input[type="cmrv"] {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #8b4c5b;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #E1738C;
+  outline: none;
+  background: transparent;
+  
+}
+
+h3{
+  margin: 0 0 0px;
+  padding: 0;
+  color: #E1738C;
+  text-align: left;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #E1738C;
+  pointer-events: none;
+  transition: .5s;
+  letter-spacing: 1px;
+}
+
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #E1738C;
+  font-size: 12px;
+}
+
+.login-box form a {
+  position: relative;
+  
+  padding: 10px 20px;
+  color: #E1738C;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  margin-left: 25px;
+}
+
+.login-box a:hover {
+  background: #E1738C;
+  color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #E1738C;
+  
+}
+
+/*--------------------------------------------------------------------------------------*/
+input[type="checkbox"]{
+  appearance: none;
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  background-color: #d4d4d4;
+  border-radius: 5px;
+  cursor:pointer;
+  display: flex;
   align-items: center;
   justify-content: center;
   outline: none;
+  margin-left: 18.5em;
+  position: relative;
+  top: -1.73em;
+
 }
 
 
 input[type="checkbox"]:after{
   font-family: "Font Awesome 5 Free";
-  font-weight: 400px;
+  font-weight:900;
   content: "\f00c";
-  font-size: 50px;
+  font-size: 12px;
   color: white;
   display: none;
 }
 
+
 input[type="checkbox"]:hover{
-  background-color: #a5a5a5;
+  background-color: #9e9e9e;
 }
+
 
 input[type="checkbox"]:checked{
-background-color: #8b4c5b ;
+  background-color: #E1738C;
 }
 
+
 input[type="checkbox"]:checked:after{
-display: block
+  display:block;
 }
+
+  

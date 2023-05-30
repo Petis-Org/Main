@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modal JavaScript</title>
     <link rel="stylesheet" href="css.css" />
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" /> 
     <script src="script.js" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   </head>
   <body>
   <div class="card">
@@ -15,7 +15,7 @@
       <img src="https://media.discordapp.net/attachments/1109675514194563163/1109701210908401725/pata.png" width="300px"> 
     </button>
     <div class="borda"></div>
-    
+
 
     <div id="modal" class="hide login-box">
 
@@ -43,7 +43,7 @@
     </div>
     <div class="user-box">
       <input type="password" name="" required="">
-      
+
       <label>Senha</label>
     </div>
     <div class="user-box">
@@ -51,37 +51,37 @@
       <label>Confirmar senha</label>
     </div>
     <div class="user-box">
+
       <h3>Deseja se voluntariar?</h3>
-      
-    </div>
-    <input type="checkbox" id="check" onclick="putsraluca()">
-    <script>
-      function putsraluca() {
-        if(document.getElementById("check").checked) {
-          document.getElementById("numCMRV").disabled=false
+      <input type="checkbox" id="check" onclick="putsraluca()">
+      <script>
+        function putsraluca() {
+          if(document.getElementById("check").checked) {
+            document.getElementById("CMRV").disabled=false
+          }
+        else {
+          document.getElementById("CMRV").disabled=true
         }
-      else {
-        document.getElementById("numCMRV").disabled=true
-      }
-      }
-      
-      
-      
-    </script>
+        }
+  
+  
+  
+      </script>
+    </div>
 
 
     <div class="user-box">
-      <input type="text" name="" id ="numCMRV" disabled required="" autocomplete="off">
+      <input type="cmrv" name="" required="" autocomplete="off" id="CMRV" disabled>
       <label>nº da CMRV</label>
     </div>
   </form>
         <button id="close-modal" class="final">Finalizar registro</button>
       </div>
 
-      
+
       <div class="modal-body">
-        
+
       </div>
     </div>
-  </body>    
+  </body>
 </html>
