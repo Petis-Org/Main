@@ -2,7 +2,8 @@
 body {
     margin: 0;
     background-color:#7ed0ff;
-    overflow-y: hidden;
+    overflow-x: hidden;
+
   }
   a{
     text-decoration:none
@@ -14,30 +15,20 @@ body {
   
   .landingpage {
     margin: 0 auto;
-    padding: 0 300px;
+    padding: 0 9vh;
     position: relative;
-    overflow-y: auto;
-    overflow-x: hidden;
     background-color: #7ed0ff;
   }
   .landingpage::before {
     content: "";
     position: absolute;
-    width: 223px;
-    height: 123px;
+    width: 32.650073206442165vw;
+    height: 37.5vh;
     left: 90%;
-    top: 138px;
+    top: 42.07vh;
     filter: blur(80px);
   }
-  .landingpage::after {
-    content: "";
-    position: absolute;
-    width: 123px;
-    height: 123px;
-    left: 80%;
-    top: 550px;
-    filter: blur(80px);
-  }
+
  
   .landingpage .navbar {
     display: flex;
@@ -50,26 +41,14 @@ body {
     display: flex;
     align-items: start;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-top: 24.390243902439025vh;
   }
   .landingpage .auction {
-    margin-top: 100px;
+    margin-top: 30.48780487804878vh;
   }
   .landingpage .discover {
     display: flex;
     flex-direction: column;
-  }
-  .landingpage .footer {
-    margin: 50px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .landingpage .footer2 {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 30px;
-    border-top: 1px solid #000000;
   }
   
   .navbar .hamburgerlogowrap {
@@ -81,14 +60,14 @@ body {
     color: #ffffff;
     background-color: #ffffff;
     border: none;
-    margin-right: 10px;
+    margin-right: 1vw;
   }
   .navbar .createbtn {
     cursor: pointer;
     background-color: transparent;
     border: none;
-    width:130px;
-    height: 36px;
+    width: 5vw;
+    height: 5vh;
     color: #ffffff;
     font-family: "Poppins";
     font-style: normal;
