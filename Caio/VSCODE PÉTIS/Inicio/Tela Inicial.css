@@ -15,7 +15,7 @@ body {
   
   .landingpage {
     margin: 0 auto;
-    padding: 0 9vh;
+    padding: 0 10vh;
     position: relative;
     background-color: #7ed0ff;
   }
@@ -23,7 +23,7 @@ body {
     content: "";
     position: absolute;
     width: 32.650073206442165vw;
-    height: 37.5vh;
+    height: 38.5vh;
     left: 90%;
     top: 42.07vh;
     filter: blur(80px);
@@ -67,7 +67,7 @@ body {
     background-color: transparent;
     border: none;
     width: 5vw;
-    height: 5vh;
+    height: 1vh;
     color: #ffffff;
     font-family: "Poppins";
     font-style: normal;
@@ -75,16 +75,7 @@ body {
     font-size: 12px;
   }
 
-  .navbar .navlogo {
-    height: 100%;
-    background: linear-gradient(93.51deg, #ff85a2 21.84%, #ff85a2 99.18%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-  }
+ 
   .navbar .navlink {
     font-family: "Poppins";
     font-style: normal;
@@ -99,9 +90,11 @@ body {
     border-bottom: 1.5px solid #ff85a2;
     transition: 0.5s;
   }
-  .navbar .navlink:not(:last-child) {
-    margin-right: 32px;
-  }
+ .logoimg{
+  position: relative;
+  left: -5vw;
+  top: 1vh;
+ }
   #Ini{
     position: relative;
     left: -2vw;
