@@ -23,9 +23,9 @@ body {
     content: "";
     position: absolute;
     width: 32.650073206442165vw;
-    height: 38.5vh;
+    height: 88.5vh;
     left: 90%;
-    top: 42.07vh;
+    top: 82.07vh;
     filter: blur(80px);
   }
 
@@ -34,14 +34,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 150vh;
+    width: 156vh;
     height: 5vw;
   }
   .landingpage .box {
     display: flex;
     align-items: start;
     justify-content: space-between;
-    margin-top: 24.390243902439025vh;
+    margin-top: 10.390243902439025vh;
   }
   .landingpage .auction {
     margin-top: 30.48780487804878vh;
@@ -55,24 +55,18 @@ body {
     display: flex;
     align-items: center;
   }
-  .navbar .hamburger {
-    display: none;
-    color: #ffffff;
-    background-color: #ffffff;
-    border: none;
-    margin-right: 1vw;
-  }
   .navbar .createbtn {
     cursor: pointer;
     background-color: transparent;
     border: none;
-    width: 5vw;
-    height: 1vh;
+    width: 130px;
+    height: 36px;
     color: #ffffff;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
+
   }
 
  
@@ -90,6 +84,7 @@ body {
     border-bottom: 1.5px solid #ff85a2;
     transition: 0.5s;
   }
+
   #Ini{
     position: relative;
     left: -2vw;
@@ -103,9 +98,11 @@ body {
     left: 1vw;
   }
   #login {
+    position: relative;
     font-size: 1rem;
   }
   #cadas{
+    
     font-size: 1rem;
   }
 
@@ -123,31 +120,46 @@ body {
   .item-img:hover {
     transform: scale(1.05);
   }
-  .item-title {
+  .item-title{
     display: flex;
     align-items: center;
     font-family: "Poppins";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1rem;
     line-height: 24px;
     color: #ffffff;
   }
-
-
-
+  .titulo{
+    left: 31vw;
+    position: relative;
+    align-items: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 30px;
+    color: #ffffff;
+  }
 .cu{
+  padding: 2vw;
   border-radius: 10px;
-  width: 40vh;
-  height: 25vw;
+  width: 26vh;
+  height: 15vw;
   border: solid  #ffffff;
  display: inline-block;
-  margin-left: 1vw;
-  
+  margin-left: 1.7vw;
  align-items: center;
 }
 .margem{
-  margin-top: 15vh;
+  margin-top: 10vh;
 }
-
-
+.cu5{
+  margin-top: 4vh;
+}
+.cu9{
+  margin-top: 3vh;
+}
+.cu13{
+  margin-top: 3vh;
+}

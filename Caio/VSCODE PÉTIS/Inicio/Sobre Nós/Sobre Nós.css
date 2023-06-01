@@ -14,7 +14,7 @@ body {
   
   .landingpage {
     margin: 0 auto;
-    padding: 0 300px;
+    padding: 0 20vh;
     position: relative;
     background-color: #7ed0ff;
   }
@@ -75,7 +75,7 @@ body {
   }
   .navbar .hamburger {
     display: none;
-    color: #000000;
+    color: #ffffff;
     background-color: #ffffff;
     border: none;
     margin-right: 10px;
@@ -139,19 +139,19 @@ body {
     font-size: 1rem;
   }
   .textao {
-    background-color: #ffffff;
+    border: solid 5px #ffffff;
     border-radius: 10px;
     position: relative;
     top: 5vh;
-    left: 12vw;
+    left: 18vw;
     width: 90vh;
-    height: 23vw;
+    height: 25vw;
     text-align: center;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
     font-size: 1.3rem;
-    color: #E1738C;
+    color: #ffffff;
   }
 
 /*PETS*/

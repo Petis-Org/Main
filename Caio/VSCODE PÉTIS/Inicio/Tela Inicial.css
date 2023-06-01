@@ -3,7 +3,7 @@ body {
     margin: 0;
     background-color:#7ed0ff;
     overflow-x: hidden;
-
+    overflow-y: hidden;
   }
   a{
     text-decoration:none
@@ -23,25 +23,24 @@ body {
     content: "";
     position: absolute;
     width: 32.650073206442165vw;
-    height: 38.5vh;
+    height: 88.5vh;
     left: 90%;
-    top: 42.07vh;
+    top: 82.07vh;
     filter: blur(80px);
   }
 
- 
   .landingpage .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 150vh;
+    width: 156vh;
     height: 5vw;
   }
   .landingpage .box {
     display: flex;
     align-items: start;
     justify-content: space-between;
-    margin-top: 24.390243902439025vh;
+    margin-top: 10.390243902439025vh;
   }
   .landingpage .auction {
     margin-top: 30.48780487804878vh;
@@ -55,19 +54,12 @@ body {
     display: flex;
     align-items: center;
   }
-  .navbar .hamburger {
-    display: none;
-    color: #ffffff;
-    background-color: #ffffff;
-    border: none;
-    margin-right: 1vw;
-  }
-  .navbar .createbtn {
+  .createbtn {
     cursor: pointer;
     background-color: transparent;
     border: none;
-    width: 5vw;
-    height: 1vh;
+    width: 130px;
+    height: 36px;
     color: #ffffff;
     font-family: "Poppins";
     font-style: normal;
@@ -83,7 +75,7 @@ body {
     font-size: 1.3rem;
     color: #ffffff;
   }
-  .navbar .navlink.selectedlink:hover {
+   .navlink.selectedlink:hover {
     background: #ff85a2;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -93,7 +85,6 @@ body {
  .logoimg{
   position: relative;
   left: -5vw;
-  top: 1vh;
  }
   #Ini{
     position: relative;
@@ -116,8 +107,8 @@ body {
   .box .infobox {
     animation-name: leftslide;
     animation-duration: 1.7s;
-    max-height: 500px;
-    max-width: 55%;
+    max-height: 7100px;
+    max-width: 100%;
     overflow: hidden;
   }
   .box .infobox-boldtext {
@@ -181,8 +172,9 @@ body {
     background: #ff85a2;
     
   }
+
   .box .display {
-    animation: forwards 5s;
+    animation: forwards 2s;
     animation-name: rightslide;
     padding: 16px;
     border: 1px solid;
@@ -211,7 +203,7 @@ body {
     font-family: "Poppins";
     font-style: normal;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 12px;
   }
  
