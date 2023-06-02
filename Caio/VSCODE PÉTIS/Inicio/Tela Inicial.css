@@ -22,7 +22,7 @@ body {
   .landingpage::before {
     content: "";
     position: absolute;
-    width: 32.650073206442165vw;
+    width: 32.65vw;
     height: 88.5vh;
     left: 90%;
     top: 82.07vh;
@@ -40,10 +40,10 @@ body {
     display: flex;
     align-items: start;
     justify-content: space-between;
-    margin-top: 10.390243902439025vh;
+    margin-top: 10.39vh;
   }
   .landingpage .auction {
-    margin-top: 30.48780487804878vh;
+    margin-top: 30.48vh;
   }
   .landingpage .discover {
     display: flex;
@@ -107,7 +107,7 @@ body {
   .box .infobox {
     animation-name: leftslide;
     animation-duration: 1.7s;
-    max-height: 7100px;
+    max-height: 519.76vh;
     max-width: 100%;
     overflow: hidden;
   }
@@ -140,7 +140,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #1f1d2b;
-    padding: 8px 38px;
+    padding: 10px 38px;
     border-radius: 16px;
     font-family: "Poppins";
     font-style: normal;
@@ -176,26 +176,26 @@ body {
   .box .display {
     animation: forwards 2s;
     animation-name: rightslide;
-    padding: 16px;
+    padding: 1vw;
     border: 1px solid;
     background: linear-gradient(169.44deg, #3a81bf14 1.85%, #41305a14 98.72%);
     border-radius: 35px;
-    max-height: 450px;
-    max-width: 50%;
+    max-height: 67.3vh;
+    max-width: 5000vw;
     overflow: hidden;
   }
   .box .display-nft {
     object-fit: cover;
     flex-shrink: 0;
-    width: 300px;
-    height: 300px;
+    width: 20.9vw;
+    height: 44.9vh;
     border-radius: 20px;
   }
   .box .display .infowrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 1.49vh;
   }
   .box .display .info {
     display: flex;
@@ -213,7 +213,7 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 1vw;
   }
   
   .started {
