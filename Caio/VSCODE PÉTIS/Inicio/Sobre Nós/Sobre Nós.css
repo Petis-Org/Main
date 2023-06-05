@@ -1,8 +1,10 @@
 @charset "UTF-8";
 body {
-    margin: 0;
-    background-color:#7ed0ff;
-    height: 100%;
+  margin: 0;
+  background-color:#7ed0ff;
+  height: 100%; 
+  overflow-y: hidden;
+overflow-x: hidden;
   }
   a{
     text-decoration:none
@@ -144,7 +146,7 @@ body {
     position: relative;
     top: 5vh;
     left: 18vw;
-    width: 90vh;
+    width: 100vh;
     height: 25vw;
     text-align: center;
     font-family: "Poppins";

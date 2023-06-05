@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body{
+    margin: 0;
+    background-color:#7ed0ff;
+    height: 100%; 
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 30%;
+    width: 50%;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url("") no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+  }
+  .stopfade {
+    opacity: 0.5;
+  }
+  
+  #polina {
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    font-weight: 100;
+    background: #0000004d;
+    color: white;
+    padding: 2rem;
+    width: 33%;
+    margin: 2rem;
+    float: right;
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: 0.3rem;
+  }
+ 
+  
+  a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+    transition: 0.6s background;
+  }
+  a:hover {
+    background: rgba(0, 0, 0, 0.9);
+  }
+  @media screen and (max-width: 500px) {
+    div {
+      width: 50%;
+    }
+  }
+  @media screen and (max-device-width: 800px) {
+    html {
+      background: url(https://thenewcode.com/assets/images/polina.jpg) #000
+        no-repeat center center fixed;
+    }
+    #bgvid {
+      display: none;
+    }
+  }
+  
